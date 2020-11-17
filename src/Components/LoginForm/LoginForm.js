@@ -23,7 +23,7 @@ export default class LoginForm extends Component{
   }
   SubmitLogin = (event)=>{
     event.preventDefault();
-    this.setState({formStatus:{middle:true}})
+      this.setState({formStatus:{middle:true}})
 
   }
     render(){
@@ -51,7 +51,7 @@ export default class LoginForm extends Component{
 
 
           <div className='loginFormGroup'>
-            <Button type="submit" color="cyan" > {this.state.formStatus.middle === true?<Loader inverse />:''} Submit</Button>
+            <Button type="submit" color="cyan" disabled={this.state.formStatus.middle === true ? true:false} > {this.state.formStatus.middle === true?<Loader inverse />:''} Submit</Button>
           </div>
         </form>
         </> ;

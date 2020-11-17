@@ -1,0 +1,18 @@
+.HomePageContainer{
+    display: grid;
+    grid-template-columns: 15% 85%;
+
+      .HomePageSidebarContainer1{
+        border-right: 1px solid #dedede;
+        box-shadow: 0 0 10px #dedede;
+        background-color: #fefefe;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+    .HomePageContentContainer1{
+      background-color: #f1f1f1;
+  }
+  
+}

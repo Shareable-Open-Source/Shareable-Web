@@ -1,0 +1,16 @@
+.mainCSS{
+    
+  background: url("./../../Assets/mountain.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding:30px;
+}
+.FormContainer{
+  padding:20px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  max-width: 480px;
+  text-align: center;
+}
